@@ -1,7 +1,7 @@
 node {
    def mvnHome
    stage('Prepare') {
-      git url: 'git@github.com:krishnamurthypradeep/product-app-ci-cd.git', branch: 'master'
+      git url: 'git@github.com:krishnamurthypradeep/product-app-ci-cd.git', branch: 'master	'
       mvnHome = tool 'mvn'
    }
    stage('Build') {
