@@ -10,9 +10,8 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+
 server:
-  servlet:
-    context-path: /api/v1
   port: 7070
 
 
