@@ -10,7 +10,7 @@
 	<groupId>product-app-ci-cd</groupId>
 	<artifactId>product-app-ci-cd</artifactId>
 	<version>0.0.3-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>product-app</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
