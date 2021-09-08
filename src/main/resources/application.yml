@@ -9,7 +9,10 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-    show-sql: true  
+    show-sql: true
+server:
+  servlet:
+    context-path: /api/v1      
 
 
 
